@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+       <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+           <items>
+               <Button id="nav_left" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="&lt;" />
+               <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                   <children>
+                       <Button id="nav_right" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="&gt;" />
+                   </children></HBox>
+           </items>
+       </ToolBar>
+   </bottom>
+   <center>
+      <SplitPane dividerPositions="0.1" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+            <GridPane alignment="CENTER">
+                <columnConstraints>
+                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Host Name" textAlignment="CENTER">
+                        <font>
+                            <Font name="Calibri Light" size="18.0" />
+                        </font>
+                    </Text>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Price" textAlignment="CENTER" GridPane.columnIndex="1">
+                        <font>
+                            <Font name="Calibri Light" size="18.0" />
+                        </font>
+                    </Text>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Reviews" textAlignment="CENTER" wrappingWidth="100.0" GridPane.columnIndex="2">
+                        <font>
+                            <Font name="Calibri Light" size="18.0" />
+                        </font>
+                    </Text>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Min. Number of Nights" textAlignment="CENTER" wrappingWidth="100.0" GridPane.columnIndex="3">
+                        <font>
+                            <Font name="Calibri Light" size="18.0" />
+                        </font>
+                    </Text>
+                </children>
+            </GridPane>
+            <ScrollPane id="scroll" fitToWidth="true" prefHeight="200.0" prefWidth="200.0">
+                <content>
+                    <GridPane id="property_list" alignment="CENTER" vgap="10.0">
+                        <columnConstraints>
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                        </columnConstraints>
+                        <rowConstraints>
+                            <RowConstraints vgrow="SOMETIMES" />
+                        </rowConstraints>
+                    </GridPane>
+                </content></ScrollPane>
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>

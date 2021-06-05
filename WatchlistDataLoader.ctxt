@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=WatchlistDataLoader
+comment0.text=\r\n\ This\ class\ allows\ the\ watchlist\ file\ to\ be\ accessed\ and\ modified\r\n
+comment1.params=p
+comment1.target=void\ addToWatchlist(AirbnbListing)
+comment1.text=\r\n\ Insert\ a\ new\ entry\ into\ the\ watchlist\r\n\ @param\ p\ the\ airbnb\ listing\ to\ add\r\n
+comment2.params=id
+comment2.target=void\ removeFromWatchlist(java.lang.String)
+comment2.text=\r\n\ Remove\ a\ new\ entry\ into\ the\ watchlist\r\n\ @param\ id\ id\ of\ the\ property\ to\ remove\r\n
+comment3.params=id
+comment3.target=boolean\ isInWatchlist(java.lang.String)
+comment4.params=
+comment4.target=java.util.List\ load()
+comment4.text=\r\n\ retrieve\ a\ list\ of\ string\ arrays,\ each\ containing\ one\ property\ listing\ from\ the\ watchlist\r\n\ @return\r\n
+numComments=5

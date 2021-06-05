@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PropertyView
+comment0.text=\r\n\ Represents\ a\ single\ Airbnb\ property\ listing\ (or\ AirbnbListing\ object)\r\n
+comment1.params=id
+comment1.target=PropertyView(java.lang.String)
+comment1.text=\r\n\ Default\ constructor\ for\ a\ property\ view\ window\r\n\ @param\ id\ the\ property\ id\ to\ represent\r\n\ @throws\ IOException\ method\ throws\ an\ IOException\r\n
+numComments=2

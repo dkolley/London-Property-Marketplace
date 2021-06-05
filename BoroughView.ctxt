@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BoroughView
+comment0.text=\r\n\ Represents\ a\ window\ which\ contains\ information\ about\ a\ specific\ borough\r\n
+comment1.params=name
+comment1.target=BoroughView(java.lang.String)
+comment1.text=\r\n\ Default\ constructor\ for\ a\ borough\ view\ window.\r\n\ @param\ name\ the\ name\ of\ the\ borough\ to\ represent\r\n\ @throws\ IOException\ method\ throws\ an\ IOException\r\n
+comment2.params=sort
+comment2.target=void\ addPropertyListings(java.lang.String)
+comment2.text=\r\n\ This\ method\ adds\ each\ listing\ from\ the\ properties\ list\r\n\ to\ a\ viewable\ grid\ in\ the\ page.\r\n
+comment3.params=sort
+comment3.target=void\ sortProperties(java.lang.String)
+comment3.text=\r\n\ Sorts\ the\ properties\ list\ by\ number\ of\ reviews,\ price,\ or\ alphabetically\ by\ host\ name\r\n\ @param\ sort\ the\ type\ of\ sorting.\ Can\ be\ "Reviews",\ "Price"\ or\ "Alphabetical"\r\n
+numComments=4

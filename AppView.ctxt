@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=AppView
+comment0.text=\r\n\ Main\ application\ class.\ Controls\ the\ window\ view.\r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=
+comment2.target=void\ unlockOtherPages()
+comment2.text=\r\n\ Checks\ if\ remaining\ pages\ can\ be\ unlocked\r\n
+comment3.params=state
+comment3.target=void\ setNavButtonsDisable(boolean)
+comment3.text=\r\n\ Sets\ whether\ the\ bottom\ nav\ buttons\ are\ disabled\ or\ not\r\n\ @param\ state\ false\ if\ disabled,\ true\ if\ working\r\n
+comment4.params=
+comment4.target=void\ setUpMapPage()
+comment4.text=\r\n\ Sets\ up\ the\ map\ page\r\n
+comment5.params=
+comment5.target=void\ setUpStatPage()
+comment5.text=\r\n\ Sets\ up\ the\ statistics\ page\r\n
+comment6.params=
+comment6.target=void\ setUpWatchlistPage()
+comment6.text=\r\n\ Sets\ up\ the\ watchlist\ page\r\n
+numComments=7

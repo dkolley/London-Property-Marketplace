@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <ToolBar minHeight="-Infinity" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <ComboBox id="min_range" prefWidth="100.0" promptText="Min Price">
+                     <HBox.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </HBox.margin>
+                  </ComboBox>
+                  <ComboBox id="max_range" prefWidth="100.0" promptText="Max Price">
+                     <HBox.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </HBox.margin>
+                  </ComboBox>
+               </children>
+            </HBox>
+         </items>
+      </ToolBar>
+   </top>
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button id="nav_left" disable="true" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="&lt;">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Button id="nav_right" disable="true" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="&gt;">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+               </children></HBox>
+        </items>
+      </ToolBar>
+   </bottom>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView id="welcome_bg" fitHeight="520.0" fitWidth="800.0" opacity="0.25" pickOnBounds="true">
+               <image>
+                  <Image url="@img/london-buildings.jpg" />
+               </image>
+            </ImageView>
+            <VBox id="welcome_text" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="800.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" textAlignment="CENTER">
+                     <font>
+                        <Font name="Calibri Light" size="64.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Please choose a price range, and we'll show you the best-suited properties." textAlignment="CENTER" wrappingWidth="550.0">
+                     <font>
+                        <Font name="Calibri Light" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Text>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/abnb-logo.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

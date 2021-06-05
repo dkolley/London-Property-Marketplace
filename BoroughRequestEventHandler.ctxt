@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=BoroughRequestEventHandler
+comment0.text=\r\n\ The\ purpose\ of\ this\ class\ is\ to\ check\ for\ 'mouse\ clicked'\ events\ on\r\n\ map\ icons,\ then\ open\ the\ appropriate\ BoroughView\ using\ the\ text\r\n\ of\ the\ clicked\ button.\r\n
+comment1.params=evt
+comment1.target=void\ handle(javafx.event.Event)
+numComments=2

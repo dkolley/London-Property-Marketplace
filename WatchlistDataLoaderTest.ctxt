@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=WatchlistDataLoaderTest
+comment0.text=\r\n\ The\ test\ class\ WatchlistDataLoaderTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=WatchlistDataLoaderTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ WatchlistDataLoaderTest\r\n
+comment2.params=
+comment2.target=void\ testLoad()
+comment3.params=
+comment3.target=void\ testIsInWatchlist()
+comment4.params=
+comment4.target=void\ testNotInWatchlist()
+comment5.params=
+comment5.target=void\ testAddToWatchlist()
+comment6.params=
+comment6.target=void\ testRemoveFromWatchList()
+numComments=7
